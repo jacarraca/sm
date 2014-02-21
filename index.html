@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SocialMap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/map.css">
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?&sensor=false">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: new google.maps.LatLng(-34.397, 150.644),
+          zoom: 8
+        };
+        var map = new google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  
+  
+  <body>
+		
+	<div class="navbar">
+	
+	<div class="icon-navbar-div">
+	<img class="icon-navbar" src="./img/icon.png"/>
+	</div>
+	<div class="user-logout">
+		<button class="user-logout-btn"/>
+	</div>
+	
+	<div class="user-info">
+		Tiago Bertolo<br />
+		barrote@gmail.com
+	</div>
+	
+	<div class="user-info-avatar">
+		<img class="user-avatar" src="./img/default_avatar.png"/>
+	</div>
+	<div class="upload-video">
+		<button class="upload-video-btn"/>
+	</div>
+	<div class="upload-photo">
+		<button class="upload-photo-btn"/>
+	</div>
+	
+	<div class="title-navbar-div">
+	<h1 class="title">SocialMap</h1>
+	</div>
+	
+	</div>
+   	   
+	<div class="wrapper">
+    
+    <div class="map" id="map-canvas"></div>
+    <i class="top"></i>
+    <i class="right"></i>
+    <i class="bottom"></i>
+    <i class="left"></i>
+    <i class="top left"></i>
+    <i class="top right"></i>
+    <i class="bottom left"></i>
+    <i class="bottom right"></i>
+    
+	</div>    
+    
+    <div class="news-feed">
+    	
+    	<div class="feed-entry">
+    	<div class="feed-entry-user-photo">
+    	</div>
+    	<div class="feed-entry-info">
+	    	<div class="feed-entry-user-name">
+		    	Ana Almeide
+	    	</div>
+	    	<div class="feed-entry-description">
+	    		Adicionou um <a href="#">video</a> novo.
+	    	</div>
+    	</div>
+    	</div>
+    	
+    	<div class="feed-separator"></div>
+    	<div class="feed-separator-hr"></div>
+    	
+    	<div class="feed-entry">
+	    	<div class="feed-entry-user-photo">
+	    	</div>
+	       	<div class="feed-entry-info">
+		       	<div class="feed-entry-user-name">
+			    	Leandro Baptiste
+		    	</div>
+		    	<div class="feed-entry-description">
+		    		Adicionou uma <a href="#">foto</a> nova.
+		    	</div>
+	    	</div>
+    	</div>
+    	
+    	<div class="feed-separator"></div>
+    	<div class="feed-separator-hr"></div>
+    	
+    	<div class="feed-entry">
+	    	<div class="feed-entry-user-photo">
+	    	</div>
+	    	
+	    	<div class="feed-entry-info">
+		    	<div class="feed-entry-user-name">
+			    	Andre Continente
+		    	</div>
+				<div class="feed-entry-description">
+					Comentou a <a href="#">foto</a> de <a href="#">Maria Sezinande</a>
+				</div>
+	    	</div>
+    	</div>
+    	
+    	<div class="feed-separator"></div>
+    	<div class="feed-separator-hr"></div>
+    	
+    	<div class="feed-entry">
+	    	<div class="feed-entry-user-photo">
+	    	</div>
+	    	<div class="feed-entry-info">
+	    		<div class="feed-entry-user-name">
+		    		Nune Lights
+				</div>
+		    	<div class="feed-entry-description">
+		    		Comentou o <a href="#">video</a> de <a href="#">Marco Ribeire</a>
+		    	</div>
+	    	</div>
+    	</div>
+    	
+    	<div class="feed-separator"></div>
+    	<div class="feed-separator-hr"></div>
+    	
+    	<div class="feed-entry">
+	    	<div class="feed-entry-user-photo">
+	    	</div>
+	    	<div class="feed-entry-info">
+	    		<div class="feed-entry-user-name">
+		    		Jedi Pivias
+				</div>
+		    	<div class="feed-entry-description">
+		    		Esta agora a seguir <a href="#">Mario das Calhas</a>
+		    	</div>
+	    	</div>
+    	</div>
+    	
+    	<div class="feed-separator"></div>
+    	<div class="feed-separator-hr"></div>
+    	
+    	<div class="feed-entry">
+	    	<div class="feed-entry-user-photo">
+	    	</div>
+	       	<div class="feed-entry-info">
+		       	<div class="feed-entry-user-name">
+			    	Jorge Cricas
+		    	</div>
+		    	<div class="feed-entry-description">
+		    		Adicionou uma <a href="#">foto</a> nova.
+		    	</div>
+	    	</div>
+    	</div>
+    	
+    	<div class="feed-separator"></div>
+    	<div class="feed-separator-hr"></div>
+    	
+    	<div class="feed-entry">
+	    	<div class="feed-entry-user-photo">
+	    	</div>
+	       	<div class="feed-entry-info">
+		       	<div class="feed-entry-user-name">
+			    	Ana Martelos
+		    	</div>
+		    	<div class="feed-entry-description">
+		    		Adicionou um <a href="#">video</a> novo.
+		    	</div>
+	    	</div>
+    	</div>
+    	
+    	<div class="feed-separator"></div>
+    	<div class="feed-separator-hr"></div>
+    	
+    	<div class="feed-entry">
+	    	<div class="feed-entry-user-photo">
+	    	</div>
+	       	<div class="feed-entry-info">
+		       	<div class="feed-entry-user-name">
+			    	Jose Casacas
+		    	</div>
+		    	<div class="feed-entry-description">
+		    		Adicionou uma <a href="#">foto</a> nova.
+		    	</div>
+	    	</div>
+    	</div>
+    	
+    	<div class="feed-separator"></div>
+    	<div class="feed-separator-hr"></div>
+    	
+    	<div class="feed-bottom-btn">
+	    	<button class="see-more"/> Show older...
+    	</div>
+
+
+    
+    </div>
+    
+    <div class="footer"></div>
+    
+  </body>
+</html>
