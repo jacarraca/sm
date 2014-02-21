@@ -109,7 +109,7 @@ body { height: 100%; margin: 0; padding: 0; }
 
 .wrapper {
 	width: 73.6%;
-	height: 93.1%; 
+	height: 80%; 
 	margin-left: 0.5%;
 	margin-top: 0.5%;
 	margin-right: 0.5%;
@@ -128,7 +128,7 @@ body { height: 100%; margin: 0; padding: 0; }
 .news-feed {
 	float: right;
 	width: 25%;
-	height: 90%;
+	height: 80%;
 	background-color: #c5eaff;
 	margin-right: 0.5%;
 	margin-top: 0.5%;
@@ -197,7 +197,7 @@ body { height: 100%; margin: 0; padding: 0; }
 	margin: 0 auto;
 	background-color: transparent;
 	height: 30px;
-	width: 100px;
+	width: 35%;
 	border-radius: 10px;
 	border: solid;
 	border-color: #90d7ff;
