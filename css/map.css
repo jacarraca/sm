@@ -375,6 +375,9 @@ body { height: 100%; margin: 0; padding: 0; }
 	background-color: #90d7ff;
 
 }
+.feed-separator::-moz-focus-inner {
+	  height: 0.1px;
+}
 
 .see-more-div {
 	text-align: center;
