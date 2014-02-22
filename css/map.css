@@ -172,7 +172,7 @@ body { height: 100%; margin: 0; padding: 0; }
 
 .user-logout {
 	margin: 1%;
-	width: 35%;
+	width: 40%;
 	height: 45%;
 	border: 0px solid blue;
 	border-radius: 10px;
@@ -371,7 +371,7 @@ body { height: 100%; margin: 0; padding: 0; }
 }
 
 .feed-separator {
-	height: 0.5%;
+	height: 0.5px;
 	background-color: #90d7ff;
 
 }
