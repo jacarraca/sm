@@ -144,13 +144,13 @@ body { height: 100%; margin: 0; padding: 0; }
 
 .user-info-avatar-td {
 	width: 4%;
+	padding-top: 1%;
 }
 
 .user-info-avatar {
 	width: 90%;
 	height: 90%;
 	margin: 10%;
-	margin-top: 40%;
 	background-image: url('./../img/default_avatar.png');
 	background-size: contain;
 	background-repeat: no-repeat;
