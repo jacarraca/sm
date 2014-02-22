@@ -103,7 +103,7 @@ body { height: 100%; margin: 0; padding: 0; }
 	border: 0px solid blue;
 	border-radius: 10px;
 	background-color: #94bbff;
-	padding: 5px;
+	padding: 5%;
 }
 
 .upload-photo-btn {
@@ -128,7 +128,7 @@ body { height: 100%; margin: 0; padding: 0; }
 	border: 0px solid blue;
 	border-radius: 10px;
 	background-color: #94bbff;
-	padding: 5px;
+	padding: 5%;
 }
 
 .upload-video-btn {
@@ -177,7 +177,7 @@ body { height: 100%; margin: 0; padding: 0; }
 	border: 0px solid blue;
 	border-radius: 10px;
 	background-color: #94bbff;
-	padding: 5px;
+	padding: 5%;
 }
 
 .user-logout-btn {
